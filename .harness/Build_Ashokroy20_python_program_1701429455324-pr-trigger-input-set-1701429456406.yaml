@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ashokroy20_python_program_1701429455324-pr-trigger-input-set
+  identifier: Build_Ashokroy20_python_program_1701429455324prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Ashokroy20_python_program_1701429455324
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
